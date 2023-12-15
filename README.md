@@ -24,7 +24,7 @@ To use the 4Ddeveloper App, follow these steps:
 3. [Configure settings](#) as needed.
 4. [Build and deploy](#) the app.
 
-Detailed installation instructions can be found in [Installation Guide](docs/installation.md).
+Detailed installation instructions can be found in [Installation Guide](docs/installation/README.md).
 
 ## Getting Started
 
@@ -53,24 +53,20 @@ Customize the 4Ddeveloper App to suit your needs:
 
 We welcome contributions! If you want to contribute to the 4Ddeveloper App, please follow these guidelines:
 
-1. [How to report issues](docs/contributing/reporting-issues.md)
-2. [Submitting a pull request](docs/contributing/pull-requests.md)
-3. [Coding standards](docs/contributing/coding-standards.md)
+1. [How to report issues](docs/contribution-guidelines/reporting-issues.md)
+2. [Submitting a pull request](docs/contribution-guidelines/pull-requests.md)
+3. [Coding standards](docs/contribution-guidelines/coding-standards.md)
 
 ## License
 
-The 4Ddeveloper App is licensed under the [MIT License](LICENSE). Please review the [full license text](LICENSE) for details.
+The 4Ddeveloper App is licensed under the [MIT License](docs/license/LICENSE). Please review the [full license text](docs/license/LICENSE) for details.
 
 ## Changelog
 
-Stay updated on the latest changes and improvements in each release. View the [Changelog](CHANGELOG.md).
+Stay updated on the latest changes and improvements in each release. View the [Changelog](docs/changelog/CHANGELOG.md).
 
 ## Contact Information
 
-If you have questions, feedback, or need support, please feel free to contact us:
-
-- Email: [support@example.com](mailto:support@example.com)
-- [Community forum](#) for discussions and announcements.
-- Follow us on [Twitter](#) for updates.
+If you have questions, feedback, or need support, please feel free to [contact us:](docs/contact-information/README.md)
 
 Thank you for using the 4Ddeveloper App!
