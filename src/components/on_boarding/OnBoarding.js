@@ -1,13 +1,14 @@
 import Rreact from "react";
 import { View, Text, Image } from "react-native";
+import OnBoardingText from "./OnBoardingText";
 
 function OnBoarding() {
   return (
     <View>
       <Image source={require()} />
       <View>
-        <Text> Heading Area</Text>
-        <Text>related to onBoarding</Text>
+        <Text> {OnBoardingText.Heading}</Text>
+        <Text></Text>
       </View>
     </View>
   );
