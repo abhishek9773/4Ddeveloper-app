@@ -4,7 +4,7 @@ import { View, Text } from "react-native";
 function HomeScreen() {
   return (
     <View>
-      <Text> this the main content</Text>
+      <Text> this the home page</Text>
     </View>
   );
 }
