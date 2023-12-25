@@ -11,7 +11,7 @@ function MainNavigator() {
     <NavigationContainer>
       <Stack.Navigator initialRouteName="LoadingScreen" headerMode="none">
         <Stack.Screen name="LoadingScreen" component={LoadingScreen} />
-        <Stack.Screen name="Home" component={HomeScreen} />
+        <Stack.Screen name="home" component={HomeScreen} />
       </Stack.Navigator>
     </NavigationContainer>
   );
