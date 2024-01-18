@@ -1,92 +1,79 @@
-# 4Ddeveloper App Documentation
+This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
 
-## Introduction
+# Getting Started
 
-Welcome to the 4Ddeveloper App documentation! This guide will help you get started with our app, designed to assist students in [describe the purpose or focus of the app].
+>**Note**: Make sure you have completed the [React Native - Environment Setup](https://reactnative.dev/docs/environment-setup) instructions till "Creating a new application" step, before proceeding.
 
-## Table of Contents
+## Step 1: Start the Metro Server
 
-![this our image](docs/images/Mobile-screen-page/1_Loading.png)
+First, you will need to start **Metro**, the JavaScript _bundler_ that ships _with_ React Native.
 
-<div style="overflow-x: auto ; ">
-  <table>
-    <tr>
-      <td><img src="docs/images/Mobile-screen-page/1_Loading.png" alt="Image 1" style="max-width: 100%; height: auto;"></td>
-      <td><img src="docs/images/Mobile-screen-page/2_OnBoarding_screen1.png" alt="Image 2" style="max-width: 100%; height: auto;"></td>
-      <td><img src="docs/images/Mobile-screen-page/3_OnBoarding_screen2.png" alt="Image 2" style="max-width: 100%; height: auto;"></td>
-      <td><img src="docs/images/Mobile-screen-page/4_OnBoarding_screen3.png" alt="Image 2" style="max-width: 100%; height: auto;"></td>
-      <td><img src="docs/images/Mobile-screen-page/5_SignUp_Screen.png" alt="Image 2" style="max-width: 100%; height: auto;"></td>
-      <td><img src="docs/images/Mobile-screen-page/6_Forget_password.png" alt="Image 2" style="max-width: 100%; height: auto;"></td>
-     <td><img src="docs/images/Mobile-screen-page/7_AccountCreate-screen.png" alt="Image 2" style="max-width: 100%; height: auto;"></td>
-     <td><img src="docs/images/Mobile-screen-page/8_OTP-screen.png" alt="Image 2" style="max-width: 100%; height: auto;"></td>
-     <td><img src="docs/images/Mobile-screen-page/9_Home-screen.png" alt="Image 2" style="max-width: 100%; height: auto;"></td>
+To start Metro, run the following command from the _root_ of your React Native project:
 
-  </table>
-</div>
+```bash
+# using npm
+npm start
 
-[for more app-screen](docs/images/Mobile-screen-page/developer-image-info.md)
+# OR using Yarn
+yarn start
+```
 
-1. [Installation](#installation)
-2. [Getting Started](#getting-started)
-3. [Usage Examples](#usage-examples)
-4. [Configuration](#configuration)
-5. [Contribution Guidelines](#contribution-guidelines)
-6. [License](#license)
-7. [Changelog](#changelog)
-8. [Contact Information](#contact-information)
+## Step 2: Start your Application
 
-## Installation
+Let Metro Bundler run in its _own_ terminal. Open a _new_ terminal from the _root_ of your React Native project. Run the following command to start your _Android_ or _iOS_ app:
 
-To use the 4Ddeveloper App, follow these steps:
+### For Android
 
-1. [Download the latest release](#) or clone the repository.
-2. [Install dependencies](#) if required.
-3. [Configure settings](#) as needed.
-4. [Build and deploy](#) the app.
+```bash
+# using npm
+npm run android
 
-Detailed installation instructions can be found in [Installation Guide](docs/installation/README.md).
+# OR using Yarn
+yarn android
+```
 
-## Getting Started
+### For iOS
 
-Learn the basics of using the 4Ddeveloper App:
+```bash
+# using npm
+npm run ios
 
-1. [Introduction to app features](docs/getting-started/introduction.md)
-2. [Setting up your account](docs/getting-started/account-setup.md)
-3. [Navigating the user interface](docs/getting-started/ui-navigation.md)
+# OR using Yarn
+yarn ios
+```
 
-## Usage Examples
+If everything is set up _correctly_, you should see your new app running in your _Android Emulator_ or _iOS Simulator_ shortly provided you have set up your emulator/simulator correctly.
 
-Explore practical examples to understand how to use the app effectively:
+This is one way to run your app — you can also run it directly from within Android Studio and Xcode respectively.
 
-1. [Example 1: [Feature] in action](docs/examples/example1.md)
-2. [Example 2: [Another Feature] explained](docs/examples/example2.md)
-3. [Troubleshooting common issues](docs/examples/troubleshooting.md)
+## Step 3: Modifying your App
 
-## Configuration
+Now that you have successfully run the app, let's modify it.
 
-Customize the 4Ddeveloper App to suit your needs:
+1. Open `App.tsx` in your text editor of choice and edit some lines.
+2. For **Android**: Press the <kbd>R</kbd> key twice or select **"Reload"** from the **Developer Menu** (<kbd>Ctrl</kbd> + <kbd>M</kbd> (on Window and Linux) or <kbd>Cmd ⌘</kbd> + <kbd>M</kbd> (on macOS)) to see your changes!
 
-1. [Configuring [Feature]](docs/configuration/feature-configuration.md)
-2. [Advanced settings](docs/configuration/advanced-settings.md)
+   For **iOS**: Hit <kbd>Cmd ⌘</kbd> + <kbd>R</kbd> in your iOS Simulator to reload the app and see your changes!
 
-## Contribution Guidelines
+## Congratulations! :tada:
 
-We welcome contributions! If you want to contribute to the 4Ddeveloper App, please follow these guidelines:
+You've successfully run and modified your React Native App. :partying_face:
 
-1. [How to report issues](docs/contribution-guidelines/reporting-issues.md)
-2. [Submitting a pull request](docs/contribution-guidelines/pull-requests.md)
-3. [Coding standards](docs/contribution-guidelines/coding-standards.md)
+### Now what?
 
-## License
+- If you want to add this new React Native code to an existing application, check out the [Integration guide](https://reactnative.dev/docs/integration-with-existing-apps).
+- If you're curious to learn more about React Native, check out the [Introduction to React Native](https://reactnative.dev/docs/getting-started).
 
-The 4Ddeveloper App is licensed under the [MIT License](docs/license/LICENSE). Please review the [full license text](docs/license/LICENSE) for details.
+# Troubleshooting
 
-## Changelog
+If you can't get this to work, see the [Troubleshooting](https://reactnative.dev/docs/troubleshooting) page.
 
-Stay updated on the latest changes and improvements in each release. View the [Changelog](docs/changelog/CHANGELOG.md).
+# Learn More
 
-## Contact Information
+To learn more about React Native, take a look at the following resources:
 
-If you have questions, feedback, or need support, please feel free to [contact us:](docs/contact-information/README.md)
-
-Thank you for using the 4Ddeveloper App!
+- [React Native Website](https://reactnative.dev) - learn more about React Native.
+- [Getting Started](https://reactnative.dev/docs/environment-setup) - an **overview** of React Native and how setup your environment.
+- [Learn the Basics](https://reactnative.dev/docs/getting-started) - a **guided tour** of the React Native **basics**.
+- [Blog](https://reactnative.dev/blog) - read the latest official React Native **Blog** posts.
+- [`@facebook/react-native`](https://github.com/facebook/react-native) - the Open Source; GitHub **repository** for React Native.
