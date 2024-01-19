@@ -9,11 +9,11 @@ export default function UserInputFieldComponent({
   value,
   onChangeText,
 }) {
-  const { labelStyle, inputStyle, containerStyle } = inputFieldStyle;
+  const { containerStyle, lableStyle, inputStyle } = inputFieldStyle;
 
   return (
     <View style={containerStyle}>
-      <Text style={labelStyle}>{label}</Text>
+      <Text style={lableStyle}>{label}</Text>
       <TextInput
         style={inputStyle}
         secureTextEntry={secureTextEntry}
