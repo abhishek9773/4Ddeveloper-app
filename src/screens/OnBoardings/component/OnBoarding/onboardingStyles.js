@@ -1,5 +1,5 @@
 import { StyleSheet } from "react-native";
-import { getDimensionScreen } from "../../utils/devices/GetDimensionScreen";
+import { getDimensionScreen } from "../../../../utils/devices/GetDimensionScreen";
 
 const { width, height } = getDimensionScreen();
 const onboardingStyles = StyleSheet.create({

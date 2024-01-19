@@ -2,7 +2,7 @@ import { StyleSheet, Text, View, Image } from "react-native";
 import React from "react";
 import { getDimensionScreen } from "../../utils/devices/GetDimensionScreen";
 import { Logo } from "../../../assets/logos";
-import { OnBoardingScreen } from "../../component/OnBoarding";
+import { OnBoardingScreen } from "../OnBoardings/component/OnBoarding";
 
 const { width, height } = getDimensionScreen();
 export default function LoadingScreen() {
