@@ -5,6 +5,7 @@ const InputFieldComponentStyle = StyleSheet.create({
     marginVertical: 4,
     fontSize: 14,
     color: "black",
+    margin: 10,
   },
   inputContainer: {
     height: 55,

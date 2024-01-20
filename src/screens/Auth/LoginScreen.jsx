@@ -1,18 +1,11 @@
 import AsyncStorage from "@react-native-async-storage/async-storage";
 import React from "react";
-import {
-  View,
-  Text,
-  SafeAreaView,
-  Keyboard,
-  Alert,
-  Button,
-} from "react-native";
+import { View, Text, SafeAreaView, Keyboard, Alert } from "react-native";
 import Loader from "./component/InputField/user-input/Loader";
 import InputFieldComponent from "./component/InputField/user-input/InputFieldComponent";
 import AuthButtonComponent from "./component/Button/AuthButtonComponent";
 
-const LoginScreen = ({ navigaton }) => {
+const LoginScreen = ({ navigation }) => {
   const [inputs, setInputs] = React.useState({ email: "", password: "" });
   const [errors, setErrors] = React.useState({});
   const [loading, setLoading] = React.useState(false);
@@ -39,7 +32,7 @@ const LoginScreen = ({ navigaton }) => {
       setLoading(false);
       let userData = await AsyncStorage.getItem("userData");
       if (userData) {
-        userData == JSON.parse(userData);
+        userData = JSON.parse(userData);
         if (
           inputs.email == userData.email &&
           inputs.password == userData.password
@@ -51,10 +44,22 @@ const LoginScreen = ({ navigaton }) => {
             JSON.stringify({ ...userData, loginIn: true })
           );
         } else {
-          Alert.alert("Error", " Invalid Details");
+          Alert.alert(
+            "Error",
+            " Invalid Details",
+            [{ text: "OK", onPress: () => {} }],
+            { cancelable: true }
+          );
         }
       } else {
-        Alert.alert("Error", "User does not Exit");
+        // Alert take (header , content, [{text:"ok", onpress:()},],{canceable:true})
+
+        Alert.alert(
+          "Error",
+          "User does not Exit",
+          [{ text: "OK", onPress: () => {} }],
+          { cancelable: true }
+        );
       }
     }, 3000);
   };
@@ -68,7 +73,7 @@ const LoginScreen = ({ navigaton }) => {
   };
 
   return (
-    <SafeAreaView style={{ backgroundColor: "white", fleex: 1 }}>
+    <SafeAreaView style={{ backgroundColor: "white", flex: 3 }}>
       <Loader visible={loading} />
       <View style={{ paddingTop: 50, paddingHorizontal: 20 }}>
         <Text style={{ color: "black", fontSize: 40, fontWeight: "bold" }}>
@@ -84,6 +89,7 @@ const LoginScreen = ({ navigaton }) => {
           label={"Email"}
           placeholder="Enter your email address"
           error={errors.email}
+          a
         />
         <InputFieldComponent
           onChangeText={(text) => handleOnChange(text, "password")}

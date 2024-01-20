@@ -17,7 +17,7 @@ export default function InputFieldComponent({
   const [hidePassword, setHidePassword] = React.useState(password);
   const [isFocused, setIsFocused] = React.useState(false);
   return (
-    <View style={{ marginBottom: 20 }}>
+    <View style={{ marginVertical: 10 }}>
       <Text style={lableStyle}>{label}</Text>
       <View
         style={[

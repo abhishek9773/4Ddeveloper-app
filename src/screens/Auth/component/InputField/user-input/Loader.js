@@ -5,7 +5,6 @@ import InputFieldComponentStyle from "./InputFieldComponentStyle";
 import LoaderStyle from "./LoaderStyle";
 
 export default function Loader({ visible = false }) {
-  const { width, height } = getDeviceDimenstion();
   return (
     visible && (
       <View style={[LoaderStyle.container, height, width]}>

@@ -10,6 +10,7 @@ import React from "react";
 import AsyncStorage from "@react-native-async-storage/async-storage";
 import Loader from "./component/InputField/user-input/Loader";
 import InputFieldComponent from "./component/InputField/user-input/InputFieldComponent";
+import AuthButtonComponent from "./component/Button/AuthButtonComponent";
 
 export default function RegistrationScreen() {
   const [inputs, setInputs] = React.useState({
@@ -21,6 +22,7 @@ export default function RegistrationScreen() {
   const [errors, setErrors] = React.useState({});
   const [loading, setLoading] = React.useState(false);
 
+  // every time when user click register button then this function call from there  onpress method "onPress(validate)"
   const validate = () => {
     Keyboard.dismiss();
     let isValid = true;
@@ -50,6 +52,7 @@ export default function RegistrationScreen() {
     }
   };
 
+  // Here This function are showing loader for 3 minute and then they disppare if you remove commnet from navigation then after 3 second then move to loading screen whatever mension in navigation.navigate();
   const register = () => {
     setLoading(true);
     setTimeout(() => {
@@ -64,10 +67,12 @@ export default function RegistrationScreen() {
     }, 3000);
   };
 
+  // when our text change they rewire those text in hook of inputs
   const handleOnChange = (text, input) => {
     setInputs((prevState) => ({ ...prevState, [input]: text }));
   };
 
+  // This function check error if error are arrive then then put those thing in error hooks.
   const handleError = (error, input) => {
     setErrors((prevState) => ({ ...prevState, [input]: error }));
   };
@@ -95,7 +100,7 @@ export default function RegistrationScreen() {
           />
           <InputFieldComponent
             onChangeText={(text) => handleOnChange(text, "fullname")}
-            onFocus={() => handleError(null, "fullname")}
+            onBlur={() => handleError(null, "fullName")}
             iconName="account-outline"
             label={"Full Name"}
             placeholder="Enter your full name"
@@ -118,7 +123,7 @@ export default function RegistrationScreen() {
             placeholder="Enter your phone no"
             error={errors.phone}
           />
-          <Button title="Register" onPress={validate} />
+          <AuthButtonComponent title="Register" onPress={validate} />
           <Text
             onPress={() => navigation.navigate("LoadingScreen")}
             style={{
