@@ -4,7 +4,7 @@ getDeviceDimenstion;
 
 const userinputFieldStyle = StyleSheet.create({
   containerStyle: {
-    margin: 12,
+    width: "100%",
   },
   lableStyle: {
     fontSize: 16,

@@ -1,2 +1,2 @@
-export { default as passwordInput } from "./password-input/PasswordInputFieldComponent";
-export { default as userInput } from "./user-input/UserInputFieldComponent";
+export { default as PasswordInputFieldComponent } from "./password-input/PasswordInputFieldComponent";
+export { default as UserInputFieldComponent } from "./user-input/UserInputFieldComponent";

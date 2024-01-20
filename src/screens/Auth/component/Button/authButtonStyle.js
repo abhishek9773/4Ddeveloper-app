@@ -5,10 +5,10 @@ const authButtonStyle = StyleSheet.create({
     backgroundColor: "#23F311",
     borderRadius: 20,
     height: 42,
-    margin: 5,
+    margin: "100%",
     justifyContent: "center",
     alignItems: "center",
-    marginHorizontal: 16,
+    marginVertical: 16,
   },
   text: {
     fontWeight: "bold",

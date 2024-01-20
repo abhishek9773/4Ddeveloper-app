@@ -6,6 +6,7 @@ INJECTED from /home/abhishek/Documents/github/fourDdeveloper/4Ddeveloper-app/and
 INJECTED from /home/abhishek/Documents/github/fourDdeveloper/4Ddeveloper-app/android/app/src/debug/AndroidManifest.xml:2:1-9:12
 INJECTED from /home/abhishek/Documents/github/fourDdeveloper/4Ddeveloper-app/android/app/src/debug/AndroidManifest.xml:2:1-9:12
 MERGED from [com.facebook.react:flipper-integration:0.73.2] /home/abhishek/.gradle/caches/transforms-3/50aac7d389ae5d1436ebe9b90990835b/transformed/jetified-flipper-integration-0.73.2-debug/AndroidManifest.xml:2:1-7:12
+MERGED from [:react-native-async-storage_async-storage] /home/abhishek/Documents/github/fourDdeveloper/4Ddeveloper-app/node_modules/@react-native-async-storage/async-storage/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-7:12
 MERGED from [:react-native-vector-icons] /home/abhishek/Documents/github/fourDdeveloper/4Ddeveloper-app/node_modules/react-native-vector-icons/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-7:12
 MERGED from [com.facebook.react:react-android:0.73.2] /home/abhishek/.gradle/caches/transforms-3/d10d040f6dc36d35e250d48d5ebb15bd/transformed/jetified-react-android-0.73.2-debug/AndroidManifest.xml:2:1-24:12
 MERGED from [com.facebook.fresco:flipper-fresco-plugin:3.1.3] /home/abhishek/.gradle/caches/transforms-3/2b5ba21ddda073e33e012f0d689623c6/transformed/jetified-flipper-fresco-plugin-3.1.3/AndroidManifest.xml:8:1-13:12
@@ -159,6 +160,8 @@ INJECTED from /home/abhishek/Documents/github/fourDdeveloper/4Ddeveloper-app/and
 INJECTED from /home/abhishek/Documents/github/fourDdeveloper/4Ddeveloper-app/android/app/src/debug/AndroidManifest.xml
 MERGED from [com.facebook.react:flipper-integration:0.73.2] /home/abhishek/.gradle/caches/transforms-3/50aac7d389ae5d1436ebe9b90990835b/transformed/jetified-flipper-integration-0.73.2-debug/AndroidManifest.xml:5:5-44
 MERGED from [com.facebook.react:flipper-integration:0.73.2] /home/abhishek/.gradle/caches/transforms-3/50aac7d389ae5d1436ebe9b90990835b/transformed/jetified-flipper-integration-0.73.2-debug/AndroidManifest.xml:5:5-44
+MERGED from [:react-native-async-storage_async-storage] /home/abhishek/Documents/github/fourDdeveloper/4Ddeveloper-app/node_modules/@react-native-async-storage/async-storage/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:react-native-async-storage_async-storage] /home/abhishek/Documents/github/fourDdeveloper/4Ddeveloper-app/node_modules/@react-native-async-storage/async-storage/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
 MERGED from [:react-native-vector-icons] /home/abhishek/Documents/github/fourDdeveloper/4Ddeveloper-app/node_modules/react-native-vector-icons/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
 MERGED from [:react-native-vector-icons] /home/abhishek/Documents/github/fourDdeveloper/4Ddeveloper-app/node_modules/react-native-vector-icons/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
 MERGED from [com.facebook.react:react-android:0.73.2] /home/abhishek/.gradle/caches/transforms-3/d10d040f6dc36d35e250d48d5ebb15bd/transformed/jetified-react-android-0.73.2-debug/AndroidManifest.xml:10:5-44
